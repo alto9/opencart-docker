@@ -1,5 +1,7 @@
-# What is it?
-A docker container for OpenCart
+# Peddler-OpenCart
+
+## What is it?
+A docker container for OpenCart that provides the basis for Peddler installations.
 
 ## What does it do?
 This container starts with a base php-apache image and installs a copy of OpenCart based on the version and md5 arguments passed to it at build time. The version tag for this image lines up with OpenCart versions. This image is the base image in Peddler based OpenCart installations.
